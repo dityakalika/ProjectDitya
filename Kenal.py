@@ -5,7 +5,7 @@ try:
     if r.status_code == 200:
         print(r.text)
 except Exception as e:
-    print("ada error",e)
+    print("ada error",e) #bila ada yang tdk sesuai e akan menjelaskan kesalahan
 
 
 #berikut keterangan warna file di Pycharm
